@@ -1,0 +1,67 @@
+package sem2;
+
+public class ObjetosSetup {
+
+	public static void main(String[] args) {
+		
+	Setup setup1 = new Setup();
+	Setup setup2 = new Setup();
+	Setup setup3 = new Setup();
+	Setup setup4 = new Setup();
+	
+	System.out.println("----------------MOUSE-------------------");
+	
+	setup1.setCor("PRETO");
+	setup1.setModelo("GAMER");
+	setup1.setMarca("LOGITECH");
+	setup1.setPreco("R$150");
+
+	System.out.println("Cor: " + setup1.getCor());
+	System.out.println("Modelo: " + setup1.getModelo());
+	System.out.println("Marca: " + setup1.getMarca());
+	System.out.println("Preço: " + setup1.getPreco());
+	System.out.println(setup1.mexer());	   
+	
+	System.out.println("----------------TECLADO-------------------");	
+	
+	setup2.setCor("RGB");
+	setup2.setModelo("GAMER");
+	setup2.setMarca("REDRAGON");
+	setup2.setPreco("R$250");
+
+	System.out.println("Cor: " + setup2.getCor());
+	System.out.println("Modelo: " + setup2.getModelo());
+	System.out.println("Marca: " + setup2.getMarca());
+	System.out.println("Preço: " + setup2.getPreco());
+	System.out.println(setup2.pressionar());	 
+		   
+	System.out.println("----------------MONITOR-------------------");	
+	
+	setup3.setCor("PRETO");
+	setup3.setModelo("GAMER");
+	setup3.setMarca("ALIENWARE");
+	setup3.setPreco("R$5.000");
+
+	System.out.println("Cor: " + setup3.getCor());
+	System.out.println("Modelo: " + setup3.getModelo());
+	System.out.println("Marca: " + setup3.getMarca());
+	System.out.println("Preço: " + setup3.getPreco());
+	System.out.println(setup3.desligar());	 
+	
+	System.out.println("------------------PC-----------------------");	
+	
+	setup4.setCor("BRANCO");
+	setup4.setModelo("GAMER");
+	setup4.setMarca("PICHAU");
+	setup4.setPreco("R$7.000");
+
+	System.out.println("Cor: " + setup4.getCor());
+	System.out.println("Modelo: " + setup4.getModelo());
+	System.out.println("Marca: " + setup4.getMarca());
+	System.out.println("Preço: " + setup4.getPreco());
+	System.out.println(setup4.ligar());	 
+	
+	System.out.println("--------------SETUP-CONCLUÍDO--------------");	
+	
+	}
+}
