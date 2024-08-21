@@ -1,0 +1,31 @@
+package sem2;
+
+public class ObjetosFornecedor {
+
+	public static void main(String[] args) {
+
+	Fornecedor fornecedor1 = new Fornecedor();	
+	
+	fornecedor1.setrazaoSocial("Junior Santos da Costa");
+    fornecedor1.setid(102);
+    fornecedor1.setnomeFantasia("JC-OUTLET");
+    fornecedor1.setcnpj("18.698.697/0001-59");
+    fornecedor1.setEndereco("Rua Amarela, 152, São Paulo, SP");
+    fornecedor1.setfone("(15) 99845-3821");
+    fornecedor1.setemail("contato@juniorsantos.com");
+    fornecedor1.setinscricaoEstadual("123.456.789.112");
+
+    System.out.println("-----Fornecedor 1!-----");
+    System.out.println("Razão Social: " + fornecedor1.getrazaoSocial());
+    System.out.println("ID: " + fornecedor1.getid());
+    System.out.println("Nome Fantasia: " + fornecedor1.getnomeFantasia());
+    System.out.println("CNPJ: " + fornecedor1.getcnpj());
+    System.out.println("Endereço: " + fornecedor1.getEndereco());
+    System.out.println("Telefone: " + fornecedor1.getfone());
+    System.out.println("Email: " + fornecedor1.getemail());
+    System.out.println("Inscrição Estadual: " + fornecedor1.getinscricaoEstadual());
+    System.out.println(fornecedor1.enviar());
+    
+	}
+}
+	
